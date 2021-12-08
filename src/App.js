@@ -10,9 +10,12 @@ const headers={
   "Accept": "application/json", 
   "Authorization": 'Basic ' + base64encodedData,
   "Access-Control-Allow-Origin": "*",
-  'Access-Control-Allow-Credentials':true,
-}
-export default class App extends Component {
+  'Access-Co<<<<<<< HEAD
+  'Access-Control-Allow-Credentiue,
+=======
+  'Access-Control-Allow-Credentials':true
+>>>>>>> 59a364bf8143a4a43eb56bce96aac67d52be5a60
+ult class App extends Component {
   state={
     products:[]
   }
